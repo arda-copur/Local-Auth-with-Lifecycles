@@ -15,11 +15,11 @@ To demonstrate the core logic of the project, there are two main screens:
 
 ### Screen B: This is where important operations are handled (e.g., banking accounts, password management, etc.). You can customize this screen to suit your specific needs.
 
-## Screen A Flow:
+ Screen A Flow:
 Requests biometric verification (e.g., face scan) before navigation.
 Successful scan transitions the user to Screen B.
 Failed scan keeps the user on Screen A with an error message.
-## Screen B Flow:
+ Screen B Flow:
 While on Screen B, the LifecycleNotifier continues monitoring the app's state.
 If the app is sent to the background, a message saying "Access Blocked" appears on the recent apps screen to prevent viewing sensitive content.
 When the app is reopened, biometric verification is requested again due to the importance of the operations on Screen B.
