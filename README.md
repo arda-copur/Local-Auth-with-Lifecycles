@@ -11,9 +11,9 @@ The AuthNotifier class handles biometric verification using the power of the loc
 ## Screens
 To demonstrate the core logic of the project, there are two main screens:
 
-### Screen A: This screen requires a facial scan from the user before navigating to Screen B. If the facial scan is successful, the app proceeds to Screen B. Otherwise, it shows an error and remains on Screen A.
+ Screen A: This screen requires a facial scan from the user before navigating to Screen B. If the facial scan is successful, the app proceeds to Screen B. Otherwise, it shows an error and remains on Screen A.
 
-### Screen B: This is where important operations are handled (e.g., banking accounts, password management, etc.). You can customize this screen to suit your specific needs.
+ Screen B: This is where important operations are handled (e.g., banking accounts, password management, etc.). You can customize this screen to suit your specific needs.
 
  Screen A Flow:
 Requests biometric verification (e.g., face scan) before navigation.
